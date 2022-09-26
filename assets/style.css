@@ -26,7 +26,14 @@
     height: 300px;
 
 }
-
+.debug footer {
+    background-color: black;
+    color: white;
+}
+.debug .text_footer {
+    height: 50px;
+    border: 1px solid white;
+}
 /* ************/
 header h5 {
     text-transform: uppercase;
