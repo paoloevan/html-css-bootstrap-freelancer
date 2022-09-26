@@ -9,14 +9,25 @@
 .debug .jumbotron>div {
     height: 200px;
 }
-.debug .card_portfolio {
+.debug .card_portfolio,
+.debug .date,
+.debug .send {
     height: 100px;
+    width: 100%;
     border: 1px solid;
 }
 .debug .about {
     background-color: bisque;
 }
-/* header */
+.debug .contact {
+    background-color: brown;
+}
+.debug .contact_text {
+    height: 300px;
+
+}
+
+/* ************/
 header h5 {
     text-transform: uppercase;
 }
