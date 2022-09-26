@@ -1,0 +1,15 @@
+/* #region Debug */
+.debug header {
+    background-color: aqua;
+}
+
+/* header */
+header h5 {
+    text-transform: uppercase;
+}
+header i {
+    text-align: right;
+}
+header .menu {
+    text-align: right;
+}
