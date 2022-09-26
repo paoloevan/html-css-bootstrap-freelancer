@@ -2,6 +2,13 @@
 .debug header {
     background-color: aqua;
 }
+.debug .jumbotron {
+    height: 250px;
+    background-color: aquamarine;
+}
+.jumbotron>div {
+    height: 200px;
+}
 
 /* header */
 header h5 {
