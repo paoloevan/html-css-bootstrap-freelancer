@@ -1,4 +1,6 @@
 /* #region Debug */
+
+
 .debug header {
     background-color: aqua;
 }
@@ -38,7 +40,32 @@
     height: 200px;
     border: 1px solid;
 }
-/* ************/
+/* #endregion ************/
+
+/* #region Common rules */
+:root {
+    --bs-primary: #1ABC9C;
+    --bs-darker: #2C3E50;
+    --bs-dark: #3A546D;
+}
+
+
+/* #region Utilities */
+.ms_bg_primary {
+    background-color: var(--bs-primary);
+}
+.ms_bg_dark {
+    background-color: var(--bs-dark);
+}
+.ms_bg_darker {
+    background-color: var(--bs-darker);
+}
+.ms_text_wite {
+    color: white;
+}
+
+    
+
 header h5 {
     text-transform: uppercase;
 }
