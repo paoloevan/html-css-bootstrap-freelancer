@@ -93,3 +93,12 @@ header .menu {
     border: none;
     opacity: 100;
 }
+.portfolio .ms_hr {
+    margin-bottom:10px;
+    width: 5rem;
+    height: 3px;
+    border-radius: 10px;
+    background-color: black;
+    border: none;
+    opacity: 100;
+}
