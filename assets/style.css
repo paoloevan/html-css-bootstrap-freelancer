@@ -6,7 +6,7 @@
     height: 250px;
     background-color: aquamarine;
 }
-.debug .jumbotron>div {
+.debug .jumbotron .row>div {
     height: 200px;
 }
 .debug .card_portfolio,
@@ -33,6 +33,10 @@
 .debug .text_footer {
     height: 50px;
     border: 1px solid white;
+}
+.debug .start {
+    height: 200px;
+    border: 1px solid;
 }
 /* ************/
 header h5 {
