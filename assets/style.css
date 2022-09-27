@@ -66,6 +66,9 @@ img {
 .ms_text_wite {
     color: white;
 }
+.ms_ratio {
+    aspect-ratio: 1;
+}
 
     
 
@@ -109,4 +112,21 @@ header .menu {
 }
 .about {
     background:var(--bs-primary)
+}
+.footer_top {
+    background-color: var(--bs-dark);
+}
+.footer_top .ms_i {
+    width: 2rem;
+    aspect-ratio: 1;
+    text-align: center;
+    font-size: 0.8rem;
+}
+.footer_bottom {
+    background-color: var(--bs-darker);
+}
+
+footer .ms_a {
+    text-decoration: none;
+    color: var(--bs-primary);
 }
