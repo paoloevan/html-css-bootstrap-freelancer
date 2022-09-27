@@ -95,7 +95,8 @@ header .menu {
     margin-left:0.5rem;
     margin-right: 0.5rem;
 }
-.portfolio .ms_hr {
+.portfolio .ms_hr,
+.contact .ms_hr {
     margin-bottom:10px;
     width: 7rem;
     height: 3px;
