@@ -48,6 +48,9 @@
     --bs-darker: #2C3E50;
     --bs-dark: #3A546D;
 }
+img {
+    max-width: 100%;
+}
 
 
 /* #region Utilities */
@@ -74,4 +77,19 @@ header i {
 }
 header .menu {
     text-align: right;
+}
+.jumbotron {
+    background-color: var(--bs-primary);
+}
+.jumbotron img {
+    width: 10rem;
+}
+.ms_hr {
+    margin-bottom:10px;
+    width: 5rem;
+    height: 3px;
+    border-radius: 10px;
+    background-color: white;
+    border: none;
+    opacity: 100;
 }
